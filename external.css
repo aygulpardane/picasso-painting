@@ -1,0 +1,70 @@
+@media screen and (min-width: 480px) and (max-width: 1680px)  and (min-height: 320px) and (max-height: 1050px)
+{
+
+    #circle {
+        height: 50%;
+        width: 40%;
+        background-image: linear-gradient(rgb(212, 233, 191), rgb(227, 58, 120));
+        border-radius: 50%;
+        border: 1pt solid yellow;
+    }
+
+    #shadow {
+        height: 10%;
+        width: 40%;
+        background-image: linear-gradient(rgb(253, 253, 253), gray);
+        border-radius: 50%;
+        border: 5pt solid orange;
+    }
+
+    .artwork {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 25%;
+        width: 25%;
+        position: absolute;
+        top: 30%;
+        left: 45%;
+        z-index: 2;
+    }
+
+    #box {
+        background-color: rgb(188, 147, 227);
+        height: 50%;
+    }
+
+    #box2 {
+        background-color: black;
+        height: 50%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+    }
+
+    #note {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+    }
+
+    #contact {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+    }
+
+    input[type="submit"] {
+        background-color: rgb(227, 58, 120);
+        color: white;
+        padding: 8px;
+    }
+
+    input[type="submit"]:hover {
+        background-color: rgb(236, 137, 236);
+        cursor: pointer;
+    }
+
+}
